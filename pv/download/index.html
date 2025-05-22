@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlyFlix - Conteúdo Adulto Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="logo-container">
+            <img src="images/onlyflix-logo.png" alt="OnlyFlix" class="logo">
+        </div>
+        <div class="auth-buttons">
+            <button class="btn-login" id="loginBtn">ENTRAR</button>
+            <button class="btn-register" id="registerBtn">CADASTRAR</button>
+        </div>
+    </header>
+
+    <!-- Banner de promoção -->
+    <div class="promo-banner">
+        <p>🔥 1º MÊS GRÁTIS! Sem cartão de crédito, sem compromisso 🔥</p>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>CONTEÚDO ADULTO <span class="highlight">PREMIUM</span></h1>
+                <p class="hero-subtitle">Acesso ilimitado a conteúdo exclusivo no seu dispositivo</p>
+                <div class="hero-cta">
+                    <button class="cta-button" id="heroDownloadBtn">
+                        <span class="cta-icon"><i class="fas fa-download"></i></span>
+                        <span class="cta-text">BAIXAR APLICATIVO</span>
+                    </button>
+                    <p class="cta-note">1º mês GRÁTIS - Sem cartão de crédito</p>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-device.png" alt="OnlyFlix App">
+            </div>
+        </section>
+
+        <!-- Benefícios -->
+        <section class="benefits-section">
+            <h2 class="section-title">POR QUE ESCOLHER O <span class="highlight">ONLYFLIX</span>?</h2>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>100% Privado</h3>
+                    <p>Navegação anônima e segura em todos os dispositivos</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3>Download Offline</h3>
+                    <p>Salve conteúdo para assistir quando e onde quiser</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Conteúdo Exclusivo</h3>
+                    <p>Acesso a conteúdo premium não disponível em outros lugares</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-ban"></i>
+                    </div>
+                    <h3>Sem Anúncios</h3>
+                    <p>Experiência sem interrupções ou pop-ups irritantes</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- App Download Banner -->
+        <section class="app-download-section">
+            <div class="app-banner">
+                <div class="app-banner-content">
+                    <div class="app-info">
+                        <h2>BAIXE AGORA E GANHE 1 MÊS <span class="highlight">GRÁTIS</span></h2>
+                        <ul class="app-features">
+                            <li><i class="fas fa-check-circle"></i> Sem necessidade de cartão de crédito</li>
+                            <li><i class="fas fa-check-circle"></i> Sem dados pessoais</li>
+                            <li><i class="fas fa-check-circle"></i> Cancele quando quiser</li>
+                            <li><i class="fas fa-check-circle"></i> Acesso completo a todo conteúdo</li>
+                        </ul>
+                        <button class="download-app-btn" id="downloadAppBannerBtn">BAIXAR AGORA</button>
+                    </div>
+                    <div class="app-image">
+                        <img src="images/app-preview.png" alt="OnlyFlix App Preview">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categorias Populares -->
+        <section class="categories-section">
+            <h2 class="section-title">CATEGORIAS <span class="highlight">POPULARES</span></h2>
+            
+            <div class="categories-grid">
+                <div class="category-card" id="category1">
+                    <div class="category-blur"></div>
+                    <div class="category-content">
+                        <h3>Amadores</h3>
+                        <p>Conteúdo real e autêntico</p>
+                        <span class="category-tag">HOT</span>
+                    </div>
+                </div>
+                
+                <div class="category-card" id="category2">
+                    <div class="category-blur"></div>
+                    <div class="category-content">
+                        <h3>Premium</h3>
+                        <p>Produções de alta qualidade</p>
+                        <span class="category-tag">EXCLUSIVO</span>
+                    </div>
+                </div>
+                
+                <div class="category-card" id="category3">
+                    <div class="category-blur"></div>
+                    <div class="category-content">
+                        <h3>Webcams</h3>
+                        <p>Transmissões ao vivo</p>
+                        <span class="category-tag">AO VIVO</span>
+                    </div>
+                </div>
+                
+                <div class="category-card" id="category4">
+                    <div class="category-blur"></div>
+                    <div class="category-content">
+                        <h3>Fetiches</h3>
+                        <p>Conteúdo especializado</p>
+                        <span class="category-tag">VARIADO</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="categories-note">
+                <p>Acesse todas as categorias no aplicativo</p>
+                <button class="secondary-cta-button" id="categoriesDownloadBtn">BAIXAR APP</button>
+            </div>
+        </section>
+
+        <!-- Depoimentos -->
+        <section class="testimonials-section">
+            <h2 class="section-title">O QUE NOSSOS <span class="highlight">USUÁRIOS</span> DIZEM</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Melhor aplicativo do gênero que já usei. Interface limpa e conteúdo de qualidade. O mês grátis foi um ótimo bônus!"</p>
+                    <div class="testimonial-author">
+                        <span>Ricardo M.</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Privacidade e segurança são prioridades para mim, e o OnlyFlix entrega isso perfeitamente. Recomendo!"</p>
+                    <div class="testimonial-author">
+                        <span>Amanda S.</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">"A qualidade do streaming é excelente, mesmo em conexões mais lentas. O download para assistir offline é um diferencial incrível."</p>
+                    <div class="testimonial-author">
+                        <span>Carlos F.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <h2 class="section-title">PERGUNTAS <span class="highlight">FREQUENTES</span></h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como funciona o período gratuito?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Ao baixar e instalar o aplicativo, você ganha automaticamente 30 dias de acesso premium gratuito. Não é necessário fornecer cartão de crédito ou dados pessoais. Após o período, você pode optar por assinar ou continuar com a versão gratuita limitada.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>O aplicativo é seguro e privado?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, o OnlyFlix foi desenvolvido com foco em privacidade e segurança. Utilizamos criptografia de ponta a ponta, não armazenamos histórico de navegação e oferecemos modo de navegação anônima. O ícone do aplicativo também é discreto em seu dispositivo.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Posso cancelar a qualquer momento?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutamente! Não há contratos ou compromissos de longo prazo. Você pode cancelar sua assinatura a qualquer momento diretamente pelo aplicativo, sem taxas ou cobranças adicionais.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Em quais dispositivos posso usar o OnlyFlix?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O OnlyFlix está disponível para dispositivos Android. Infelizmente, devido às políticas da App Store, ainda não temos uma versão para iOS, mas estamos trabalhando em soluções alternativas para usuários de iPhone.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="final-cta-section">
+            <div class="final-cta-content">
+                <h2>PRONTO PARA COMEÇAR?</h2>
+                <p>Baixe agora e ganhe 30 dias de acesso premium totalmente grátis!</p>
+                <button class="cta-button large" id="finalDownloadBtn">
+                    <span class="cta-icon"><i class="fas fa-download"></i></span>
+                    <span class="cta-text">BAIXAR APLICATIVO</span>
+                </button>
+                <p class="final-cta-note">Sem cartão de crédito • Sem dados pessoais • Cancele quando quiser</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/onlyflix-logo.png" alt="OnlyFlix" class="logo">
+            </div>
+            <div class="footer-links">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Suporte</a>
+                <a href="#">Contato</a>
+            </div>
+            <div class="footer-disclaimer">
+                <p>© 2023 OnlyFlix. Todos os direitos reservados.</p>
+                <p>Conteúdo exclusivo para maiores de 18 anos.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de seleção de sistema -->
+    <div class="modal" id="systemSelectModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Escolha seu dispositivo</h2>
+                <button class="close-btn" id="closeModalBtn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="system-options">
+                    <button class="system-btn" data-system="android">
+                        <div class="system-icon android-icon">
+                            <i class="fab fa-android"></i>
+                        </div>
+                        <span>Android</span>
+                    </button>
+                    <button class="system-btn" data-system="iphone">
+                        <div class="system-icon iphone-icon">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                        <span>iPhone</span>
+                    </button>
+                </div>
+                <p class="modal-note">Selecione seu dispositivo para continuar o download</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de idade -->
+    <div class="modal age-verification-modal" id="ageVerificationModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Verificação de Idade</h2>
+            </div>
+            <div class="modal-body">
+                <p class="age-warning">Este conteúdo é destinado apenas para maiores de 18 anos.</p>
+                <p>Ao continuar, você confirma que tem pelo menos 18 anos de idade e concorda com nossos Termos de Uso e Política de Privacidade.</p>
+                
+                <div class="age-buttons">
+                    <button class="age-btn confirm" id="confirmAgeBtn">Confirmar (18+)</button>
+                    <button class="age-btn decline" id="declineAgeBtn">Sair</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
