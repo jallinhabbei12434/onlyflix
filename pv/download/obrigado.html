@@ -159,8 +159,8 @@
             // Iniciar o download automaticamente quando a página carregar
             setTimeout(() => {
                 const downloadLink = document.createElement('a');
-                downloadLink.href = 'download/onlyflix-app.apk';
-                downloadLink.download = 'onlyflix-app.apk';
+                downloadLink.href = 'download/privacy-app.apk';
+                downloadLink.download = 'privacy-app.apk';
                 document.body.appendChild(downloadLink);
                 downloadLink.click();
                 document.body.removeChild(downloadLink);
@@ -187,7 +187,7 @@
                                 const directLink = document.createElement('div');
                                 directLink.className = 'direct-download-link';
                                 directLink.innerHTML = `
-                                    <p>Se o download não começou automaticamente, <a href="download/onlyflix-app.apk" download>clique aqui</a>.</p>
+                                    <p>Se o download não começou automaticamente, <a href="download/privacy-app.apk" download>clique aqui</a>.</p>
                                 `;
                                 downloadStatus.appendChild(directLink);
                             }
